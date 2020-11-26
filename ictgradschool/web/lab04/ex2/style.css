@@ -1,0 +1,63 @@
+img{
+    position: absolute;
+}
+
+#container{
+    width: 700px;
+    height: 541px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+
+}
+
+#pohutukawa{
+    width: 700px;
+    z-index: 2;
+    top: 113px;
+    pointer-events: none;
+}
+
+#blue {
+    top: 220px;
+    left: 130px;
+    z-index:3 ;
+}
+
+#green{
+    top: 200px;
+  right: 220px;
+    z-index:3;
+}
+
+#pink{
+      bottom:160px ;
+      right:260px;
+      z-index:1;
+}
+
+#orange{
+    bottom: 200px;
+    right: 50px;
+    z-index: 3;
+
+}
+
+#darkblue{
+    bottom: 200px;
+    right: 350px;
+    z-index: 3;
+}
+
+#red{
+    bottom:150px;
+    left: 50px;
+    z-index: 3;
+
+}
+
+.important:hover{
+    transform: scale(2);
+}
